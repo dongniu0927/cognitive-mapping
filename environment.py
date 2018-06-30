@@ -6,6 +6,7 @@ import multiprocdmlab as mpdmlab
 import numpy as np
 
 DEEPMIND_RUNFILES_PATH = os.path.dirname(inspect.getfile(dl))
+print(DEEPMIND_RUNFILES_PATH)
 DEEPMIND_SOURCE_PATH = os.path.abspath(DEEPMIND_RUNFILES_PATH + '/..' * 5)
 dl.set_runfiles_path(DEEPMIND_RUNFILES_PATH)
 
